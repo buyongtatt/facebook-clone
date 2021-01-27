@@ -1,22 +1,26 @@
-
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     // BEM naming convention
     <div className="app">
-      <h1>Lets build facebook clone!</h1>
+      
 
       <Header />
 
-      {/* App body */}
+<div className='app_body'>
+  <Sidebar />
+ 
 
       {/* sidebar */}
 
       {/* feed */}
 
       {/* widgets */}
+</div>
+      
     </div>
   );
 }
