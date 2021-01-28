@@ -19,7 +19,7 @@ function Header() {
         <img src="https://cdn2.iconfinder.com/data/icons/social-18/512/Facebook-2-512.png"></img>
         <div className="header_input">
           <SearchIcon />
-          <input type="text" placeholder='Search Something'></input>
+          <input type="text" placeholder='Search Facebook'></input>
         </div>
       </div>
       <div className="header_center">
@@ -45,7 +45,7 @@ function Header() {
             <Avatar>
              
             </Avatar>
-            <h4>Hello world</h4>
+            <h4>Bu Yong Tatt</h4>
           </div>
           <IconButton>
             <AddIcon />
